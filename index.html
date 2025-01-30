@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"data-theme="light">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -41,7 +41,56 @@
 <body class="font-sora">
     <!-- header-section -->
     <header>
-       
+        <!-- navigation bar -->
+        <nav class="bg-color-third border-b-2 border-color-five lg:border-none mb-16">
+            <div class="navbar max-w-[1320px] mx-auto py-2 lg:py-7">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl text-color-primary">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <img src="c1-assets/logo-header.png" alt="">
+                    <a class=" text-[26px] ml-3 text-color-primary">Browse<span class="text-color-accent">4</span>Pets</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl text-color-primary space-x-8">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <a href=""><i class="fa-regular fa-bell mr-4"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass mr-3"></i></a>
+                    <button class="text-color-primary text-xl px-[30px] py-[10px] rounded-lg border-2 border-color-accent mr-3 hover:bg-color-accent">Login</button>
+                    <button class="text-color-primary text-xl bg-color-accent px-[30px] py-[10px] rounded-lg hover:bg-[#ebcd37]">Register</button>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+         <section>
+            <div class="p-4 lg:p-0 max-w-[1320px] mx-auto">
+                <div>
+                    <div class="absolute top-24 lg:top-56 z-10">
+                        <h1 class="text-3xl lg:text-6xl max-w-[680px] mb-3 lg:mb-5 text-color-primary font-adlam leading-none lg:leading-tight	">Pamper Your Pet, Because They Deserve the Bes</h1>
+                        <p class="mb-3 lg:mb-6 text-[16px] lg:text-xl text-color-primary opacity-80 max-w-[630px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                        <button class="text-color-primary text-[16px] lg:text-xl bg-color-accent px-[30px] py-[10px] rounded-lg hover:bg-[#ebcd37]">Find a pet</button>
+                    </div>
+                    <img class="relative mt-16 lg:mt-0" src="c1-assets/cat-big.png" alt="">
+                </div>
+            </div>
+         </section>
     </header>
     <!-- main section -->
     <main>
